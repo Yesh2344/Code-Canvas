@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Canvas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        #canvasContainer {
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        #colorPalette {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .colorSwatch {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Code Canvas</h1>
+    <div id="colorPalette"></div>
+    <div id="canvasContainer">
+        <canvas id="drawingCanvas" width="600" height="400"></canvas>
+    </div>
+    <button id="clearButton">Clear Canvas</button>
+
+    <script src="color-palette.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
