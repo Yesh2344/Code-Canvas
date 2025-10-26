@@ -39,3 +39,6 @@ Code Canvas is a simple web-based drawing application built using HTML5 Canvas a
 ## Project Structure
 
 Additional details added.
+
+
+Additional details added.
