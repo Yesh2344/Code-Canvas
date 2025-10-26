@@ -1,3 +1,4 @@
+# Minor edit
 class ColorPalette {
     constructor(elementId) {
         this.element = document.getElementById(elementId);
