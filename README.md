@@ -37,3 +37,5 @@ Code Canvas is a simple web-based drawing application built using HTML5 Canvas a
 *   To clear the entire canvas, click the "Clear Canvas" button.
 
 ## Project Structure
+
+Additional details added.
